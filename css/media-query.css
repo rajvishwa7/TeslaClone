@@ -1,0 +1,55 @@
+/* Breakpoints */
+/* sm-600 */
+/* md-900 */
+/* lg-1200 */
+/* xl-1600 */
+
+@media screen and (min-width: 600px) {
+  .section__button__btn {
+    max-width: 30rem;
+    padding: 1.5rem;
+    flex-basis: 40%;
+  }
+  .section__button {
+    justify-content: space-evenly;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .section__button {
+    width: 70%;
+  }
+  .footer ul {
+    width: 70%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .nav__btn {
+    display: inline-block;
+  }
+  .header__left {
+    margin: 0 3rem;
+  }
+  .header__right {
+    margin: auto 2rem;
+  }
+  .link__center {
+    display: none;
+  }
+  .section__button {
+    width: 60%;
+  }
+  .footer ul {
+    width: 55%;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .footer ul {
+    width: 40%;
+  }
+  .section__button {
+    width: 50%;
+  }
+}
